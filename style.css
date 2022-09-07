@@ -1,0 +1,191 @@
+h1{
+    font-size: 3rem;
+    color: rgb(221, 92, 92);
+}
+
+.box{
+    max-width:21rem;
+    border: 1px solid gray;
+    position: relative;
+    
+     
+}
+
+.box-title h3{
+    font-size: 2.5rem;
+    background-color: rgb(224, 105, 105);
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    letter-spacing:1px;
+    transition: letter-spacing 0.9s;
+
+}
+.box-title .nine{
+    letter-spacing: 6px;
+}
+ 
+.para img{
+    width: 100px;
+    object-fit: cover;
+    float: left;
+    margin: 0px 10px 0px 5px;
+    padding: 5px;
+    transform: rotate(15deg); 
+    transition:transform 0.5s;
+}
+.para:hover img{
+    transform:rotate(-15deg);
+}
+.para p{
+    font-size: 1.1rem;
+    color: #333;
+    font-weight:100;
+}
+
+.box-footer{
+    padding:0.1rem 1rem;
+    position:absolute;
+    bottom: 0rem;
+    width:305px;
+    background-color: rgb(88, 94, 90);
+    transform: translateY(0rem);
+    transition: transform 0.5s;
+    
+}
+.box-footer p{
+    padding: 1.5px;
+    font-weight: 0.7rem;
+    line-height: 0.2rem;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    color:hsl(220,20%,95%);
+}
+.box:hover .box-footer{
+    transform: translateY(4rem); 
+}
+
+
+/* transition section start */
+
+.div2{
+     display: inline-block;
+     height: 200px;
+     width: 200px;
+     transition: width 0.7s, height 0.7s;
+     transition-delay: 0.5s;
+     transition-timing-function: ease;
+     margin: 0 auto;
+}
+.div2 img{
+    width: 100%;
+    object-fit: cover;
+}
+.div2:hover{
+    height: 350px;
+    width: 350px;   
+}
+
+.div3{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    transition: width 1s, height 1s;
+
+}
+.div3 img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.div3:hover{
+    height:350px;
+    width: 300px;
+    
+}
+
+.div4{
+    height: 250px;
+    width: 450px;
+    display: inline-block;
+    background-color: peru;
+    transition: height 1s, width 1s;
+ 
+
+}
+.div4 h4{
+     font-size: 2rem;
+     letter-spacing: 3px;
+     transition: letter-spacing 0.9s;
+    
+}
+ 
+ .div4 .ten{
+    letter-spacing: 10px;
+ }
+
+.div4:hover{
+    height: 300px;
+    width: 300px;
+    
+
+}
+
+/* box title 2 start */
+.box2{
+    border: 1px solid gray;
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+.box-title2{
+    background-color: palevioletred;
+}
+.box-title2 h2{
+    color: white;
+    margin: 0px;
+    font-size: 2.5rem;
+    padding: 10px;
+    
+}
+
+.para2 img{
+    width: 100px;
+    object-fit: cover;
+    float: left;
+    margin: 0px 13px 5px;
+    transform: rotate(180deg);
+    transition:transform 0.8s;
+}
+.box2:hover img{
+   transform: rotate(0deg);
+}
+.para2 p{
+    font-size: 0.9rem;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: rgb(100, 82, 82);
+}
+
+.footer2{
+    background-color: burlywood;
+    position:absolute;
+    bottom: 0rem;
+    width:400px;
+    transition: transform 0.5s;
+}
+
+.box2:hover .footer2{
+    transform: translateY(3rem);
+}
+
+
+
+
+/* box title 2 end */
+
+
+
+
+/* transition setcion end */
